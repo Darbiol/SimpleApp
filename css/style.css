@@ -1,0 +1,31 @@
+.navbar-wrapper {
+	position : absolute;
+	z-index : 10;
+	margin-top : 10px;
+}
+
+.navigation {
+	width : 100% !important;
+}
+
+.img-carousel {
+	width : 1500px;
+	height : 640px !important;
+}
+
+footer {
+	height: 70px;
+	background-color: #5A5A5A;
+	color : #FFFFFF;
+}
+
+footer > p {
+	font : Verdana Arial;
+	font-weight: bold;
+	padding-top : 30px;
+	padding-left : 30px;
+}
+
+.carousel-caption h1{
+	font-weight: bold;
+}
