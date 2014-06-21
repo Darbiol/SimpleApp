@@ -26,6 +26,22 @@ footer > p {
 	padding-left : 30px;
 }
 
+
 .carousel-caption h1{
 	font-weight: bold;
+}
+
+#register-form {
+	background-color: transparent;
+	color : #000;
+	height: 370px;
+	width : 30%;
+	position: absolute;
+	z-index: 10;
+	margin-left: 67%;
+	margin-top: 6%;
+}
+
+#register-form form {
+	padding : 10px;
 }
