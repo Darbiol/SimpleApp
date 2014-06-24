@@ -54,6 +54,15 @@ footer > p {
 	display: inline-block;
 }
 
+.menu-img {
+	height: 150px;
+	width: 225px;
+}
+
+.menu-container {
+	padding : 10px;
+}
+
 /*   AT WIDTH MAXIMUM TO 800px    */
 
 @media (max-width: 800px) {
