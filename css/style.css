@@ -27,6 +27,18 @@ footer > p {
 }
 
 
+#components-list > .dropdown-menu {
+	margin-left: -105px;
+}
+
+#peripherals-list > .dropdown-menu {
+	margin-left: -230px;
+}
+
+#laptops-list > .dropdown-menu {
+	margin-left: -345px;
+}
+
 .carousel-caption h1{
 	font-weight: bold;
 }
@@ -102,6 +114,23 @@ footer > p {
 	}
 }
 
+@media ( max-width : 1280px ) {
+	.container {
+		width: 900px;
+	}
+}
+
+@media ( max-width : 929px ) {
+	#user-name {
+		visibility : hidden;
+		display : none;
+	}
+
+	input.form-control {
+		width : 110px !important;
+	}
+} 
+
 @media (max-width: 768px) {
 	.img-carousel {
 		width : 100%;
@@ -114,6 +143,20 @@ footer > p {
 
 	#login-btn {
 		width: 60px;
+	}
+}
+
+@media ( max-width : 600px ) {
+	#components-list > .dropdown-menu {
+		margin-left: -50px;
+	}
+
+	#peripherals-list > .dropdown-menu {
+		margin-left: -50px;
+	}
+
+	#laptops-list > .dropdown-menu {
+		margin-left: -50px;
 	}
 }
 
