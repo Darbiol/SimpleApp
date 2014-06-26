@@ -54,20 +54,40 @@ footer > p {
 	display: inline-block;
 }
 
-.menu-img {
-	height: 150px;
-	width: 225px;
+.menu-container {
+	padding : 10px 20px;
+	padding-bottom: 10px;
 }
 
-.menu-container {
-	padding : 10px;
+.menu-container li {
+	padding : 6px 8px;
+}
+
+.menu-footer {
+	color : white;
+	background-color: #9966FF;
+	width : 100%;
+	margin-top: 18px;
+}
+
+.menu-footer h1 {
+	padding : 0px 15px;
+	padding-bottom: 10px;
+}
+
+.nav-overlay {
+	position : absolute;
+	height : 100%;
+	width : 100%;
+	background-color: transparentxx: ;
+	display : none;
 }
 
 /*   AT WIDTH MAXIMUM TO 800px    */
 
 @media (max-width: 800px) {
 	#register-form {
-		background-color: #FFFSS;
+		background-color: #FFF;
 		color : #000;
 		height: 370px;
 		width : 100%;
