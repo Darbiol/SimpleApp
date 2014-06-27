@@ -32,12 +32,12 @@
 	        <li id="components-list" class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
 	          <ul class="dropdown-menu">
-	          	<li>
+	          	<li >
 	          		<div class="container">
 			            <div class="menu-container">
 							<div class="row">
-								<div class="col-xs-3">
-									<img class="img-responsive img-thumbnail hidden-xs" src="img/Components/motherboard.jpg" alt="">
+								<div class="col-xs-3 hidden-xs img-preview">
+									<img class="img-responsive img-thumbnail" src="img/Components/motherboard.jpg" alt="">
 								</div>
 								<div class="col-xs-3">
 									<ul>
@@ -62,7 +62,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="footer clearfix menu-footer" >
+							<div class="footer clearfix menu-footer hidden-xs" >
 								<h1> Components </h1>
 							</div>
 						</div>
@@ -78,8 +78,8 @@
 	          		<div class="container">
 			            <div class="menu-container">
 							<div class="row">
-								<div class="col-xs-3">
-									<img class="img-responsive img-thumbnail hidden-xs" src="img/Peripherals/peripherals.jpg" alt="">
+								<div class="col-xs-3 hidden-xs img-preview">
+									<img class="img-responsive img-thumbnail" src="img/Peripherals/peripherals.jpg" alt="">
 								</div>
 								<div class="col-xs-3">
 									<ul>
@@ -101,7 +101,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="footer clearfix menu-footer" >
+							<div class="footer clearfix menu-footer hidden-xs" >
 								<h1> Peripherals </h1>
 							</div>
 						</div>
@@ -117,8 +117,8 @@
 	          		<div class="container">
 			            <div class="menu-container">
 							<div class="row">
-								<div class="col-xs-3">
-									<img class="img-responsive img-thumbnail hidden-xs" src="img/Peripherals/peripherals.jpg" alt="">
+								<div class="col-xs-3  hidden-xs img-preview">
+									<img class="img-responsive img-thumbnail" src="img/Peripherals/peripherals.jpg" alt="">
 								</div>
 								<div class="col-xs-3">
 									<ul>
@@ -140,7 +140,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="footer clearfix menu-footer" >
+							<div class="footer clearfix menu-footer hidden-xs" >
 								<h1> Laptops </h1>
 							</div>
 						</div>
@@ -152,14 +152,25 @@
 
 	      </ul>
 
-	      <form class="navbar-form navbar-left" role="search">
+	      <form id="search-form" class="navbar-form navbar-left" role="search">
 	        <div class="form-group">
 	          <input type="text" class="form-control" placeholder="Search">
 	        </div>
 	      </form>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li title="Messeges" ><a href="/messeges"><i class="glyphicon glyphicon-envelope"></i></a></li>
-	        <li title="Purchase History" ><a href="/history"><i class="glyphicon glyphicon-inbox"></i></a></li>
+	        <li title="Messeges" >
+	        	<a href="/messeges">
+	        		<i class="glyphicon glyphicon-envelope"></i>
+	        		<span class="navbar-titles"> Messages </span>
+	        		<span class="badge">42</span>
+	        	</a>
+	        </li>
+	        <li title="Purchase History" >
+	        	<a href="/history">
+	        		<i class="glyphicon glyphicon-inbox"></i>
+	        		<span class="navbar-titles"> History </span>
+	        	</a>
+	        </li>
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 	          	<i class="glyphicon glyphicon-user"></i>
@@ -177,6 +188,9 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 	<div class="nav-overlay" ></div>
+
+
+
 
 
 	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>

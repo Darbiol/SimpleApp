@@ -95,6 +95,54 @@ footer > p {
 	display : none;
 }
 
+.badge {
+	display : none;
+}
+
+.navbar-titles {
+	display : none;
+}
+
+.product-wrapper {
+	padding : 20px 25px;
+	margin-bottom : 15px;
+	border: solid 1px #CDCDFF;
+}
+
+.product-wrapper:hover{
+	background-color: #CDCDFF;
+	padding : 20px 25px;
+}
+
+.product-wrapper h3 {
+	text-align: center;
+}
+
+.product-wrapper> a {
+	text-align: center;
+	font-size : 27px;
+	padding : 5px 7px;
+	border-radius: 22px;
+	color : #777778;
+	margin-left: 40%;
+	border : 1px solid #fff;
+	z-index : 1000;
+}
+
+#info-overlay {
+	background-color: #000;
+	opacity: 0.7;
+	position : absolute;
+	width : calc(100% - 30px);
+	height : calc(100% - 40px);
+
+}
+
+#info-wrapper {
+	color : #000;
+	z-index: 1000;
+}
+
 /*   AT WIDTH MAXIMUM TO 800px    */
 
 @media (max-width: 800px) {
@@ -120,16 +168,56 @@ footer > p {
 	}
 }
 
+@media ( max-width : 958px ) {
+	.container {
+		width : 700px;
+	}
+
+	.img-preview {
+		display : none;
+	}
+
+	.menu-footer h1{
+		font-size: 20px;
+		margin : 8px auto !important;
+	}
+
+	.menu-footer {
+		height : 40px;
+	}
+
+	.col-xs-3 {
+		width : 33% !important;
+	}
+
+}
+
 @media ( max-width : 929px ) {
 	#user-name {
 		visibility : hidden;
 		display : none;
 	}
+}
 
-	input.form-control {
+@media ( max-width : 890px ) {
+	#login-form input {
+		width : 150px;
+	}
+}
+
+@media ( max-width : 856px ) {
+	#search-form input.form-control {
 		width : 110px !important;
 	}
-} 
+
+	div.form-group {
+		overflow: hidden;
+	}
+
+	.navbar-form {
+		padding-right : 5px;
+	}
+}
 
 @media (max-width: 768px) {
 	.img-carousel {
@@ -141,8 +229,47 @@ footer > p {
 		width : 115px;
 	}
 
+	#login-form div {
+		display : block;
+	}
+
 	#login-btn {
-		width: 60px;
+		width: 66px;
+	}
+
+	#components-list > .dropdown-menu {
+		margin-left: -100px;
+	}
+
+	#peripherals-list > .dropdown-menu {
+		margin-left: -100px;
+	}
+
+	#laptops-list > .dropdown-menu {
+		margin-left: -100px;
+	}
+
+	input.form-control {
+		width : 100% !important;
+		display : block !important;
+	}
+
+	.dropdown-menu {
+		background-color: #333 !important;
+	}
+
+	#user-name {
+		display : inline;
+		visibility : visible;
+	}
+
+	.badge {
+		display : inline;
+		float : right;
+	}
+
+	.navbar-titles {
+		display : inline;
 	}
 }
 
