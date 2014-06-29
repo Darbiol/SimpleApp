@@ -83,7 +83,7 @@
 	          <input type="password" class="form-control" placeholder="Password">
 	        </div>
 	        <button type="submit" id="login-btn" class="btn btn-default">Log In</button>
-	        <a href="/register" class="btn btn-primary" >Register</a>
+	        <a href="/register" class="btn btn-primary" data-target="#registerModal" data-toggle="modal" >Register</a>
 	      </form>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -143,6 +143,48 @@
 			</form>
 		</div> -->
 	<!-- BODY -->
+
+	<div class="container" >
+		<h1>List</h1>
+		<ul>
+			<li class="col-sm-4">
+				<div class="product-wrapper">
+					<img src="img/Components/RAM/samsung_ddr4.jpg" alt="" class="img-responsive img-thumbnail">
+					<h3>Samsung DDR4 RAM</h3>
+					<a href="" class="info"><i class="fa fa-eye"></i></a>
+				</div>
+			</li>
+			<li class="col-sm-4">
+				<div class="product-wrapper">
+					<img src="img/Components/RAM/samsung_ddr4.jpg" alt="" class="img-responsive img-thumbnail">
+					<h3>Samsung DDR4 RAM</h3>
+					<a href="" class="info"><i class="fa fa-eye"></i></a>
+				</div>
+			</li>
+			<li class="col-sm-4">
+				<div class="product-wrapper">
+					<img src="img/Components/RAM/samsung_ddr4.jpg" alt="" class="img-responsive img-thumbnail">
+					<h3>Samsung DDR4 RAM</h3>
+					<a href="" class="info"><i class="fa fa-eye"></i></a>
+				</div>
+			</li>
+			<li class="col-sm-4">
+				<div class="product-wrapper">
+					<img src="img/Components/RAM/samsung_ddr4.jpg" alt="" class="img-responsive img-thumbnail">
+					<h3>Samsung DDR4 RAM</h3>
+					<a href="" class="info"><i class="fa fa-eye"></i></a>
+				</div>
+			</li>
+			<li class="col-sm-4"></li>
+			<li class="col-sm-4"></li>
+			<li class="col-sm-4"></li>
+			<li class="col-sm-4"></li>
+			<li class="col-sm-4"></li>
+			<li class="col-sm-4"></li>
+			<li class="col-sm-4"></li>
+		</ul>
+	</div>
+
 	<div class="container">
 		<h1> New Arrivals </h1>
 		<div class="row" >
@@ -171,11 +213,12 @@
 
 		<div class="row" >
 			<div class="col-sm-4">
-				<div id="info-overlay" ></div>
+				
 				<div class="product-wrapper">
+					<a href="" class="info"><i class="fa fa-eye"></i></a>
+					<div id="info-overlay" ></div>
 					<img src="img/Components/RAM/samsung_ddr4.jpg" alt="" class="img-responsive img-thumbnail">
 					<h3>Samsung DDR4 RAM</h3>
-					<a href="" class="info"><i class="fa fa-eye"></i></a>
 				</div>
 
 				<div id="info-wrapper" >
@@ -204,6 +247,49 @@
 		<p> &copy 2014 Chinesebear Solutions.</p>
 	</footer>
 
+
+	<!-- MODAL FOR REGISTRATION -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<form role="form">
+			  <h1>Register</h1>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="register-email" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">First Name</label>
+			    <input type="email" class="form-control" id="register-email" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1"> Last Name </label>
+			    <input type="email" class="form-control" id="register-email" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="register-password" placeholder="Password">
+			  </div>
+			   <div class="form-group">
+			    <label for="exampleInputPassword1">Confirm Password</label>
+			    <input type="password" class="form-control" id="confirm-password" placeholder="Type your password again">
+			  </div>
+			</form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Register</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
 
 
